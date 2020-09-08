@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Pomodoro Plugin",
+  "description": "This extension will help you use the Pomodoro Method while studying",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+
+  "content_security_policy":"script-src 'self' https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js; object-src 'self'"
+}
